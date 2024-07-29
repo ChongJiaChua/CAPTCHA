@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CAPTCHA</title>
+    <meta name="author" content="Chong Jia Chua">
+    <link rel="stylesheet" href="captchastyle.css">
+</head>
+
+<body>
+    <header>
+        <h1>ChuaCAPTCHA</h1>
+    </header>
+
+    <main>
+        <p id="instructions"></p>
+        <canvas id="canvas_example" width="1300" height="300"></canvas>
+        <br>
+        <canvas id="canvas_message" width="1300" height="100"></canvas>
+        <br>
+        <div class="check">
+        <button id="verify">Verify</button>
+        <button id="Reinitialise">Reinitialise</button>
+        </div>
+        <div id="infoArea">
+            <p>- Please click on the images that corresponds to the instruction. </p>
+            <p>- If you succesfully select all the correct images, a "Success" message will be displayed in the canvas.</p>
+            <p>- If you fail, you will be given a second chance to select again.</p>
+            <p>- However if you fail a second time, a "Fail" message will displayed in the canvas and you will not be able to select the images unless you press reinitialise button. </p>
+            <p>- The website is made to work on both desktop and mobile by moving the canvases to the middle of the page. </p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Chong Jia Chua, 2023</p>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+
+</html>

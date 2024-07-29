@@ -1,0 +1,55 @@
+/* Author: Chong Jia Chua */
+
+canvas { 
+    border: 5px solid black;
+    display:block;
+    margin: auto;
+    background-color:rgb(160, 251, 251);
+  }
+
+body{
+  background-color: #e9d6fe;
+}
+
+header{
+  text-align: center;
+  font-size:30px;
+  color:rgb(76, 61, 79);
+}
+
+#instructions{
+  text-align:center;
+  font-size:20px;
+  color:rgb(76, 61, 79);
+}
+
+#verify, #Reinitialise {
+  color: #000000; 
+  background-color: transparent;
+  padding: 15px 15px;
+  text-align: center; 
+  font-size: 20px; 
+  cursor: pointer;
+  border: none;
+  margin:auto;
+}
+
+#verify:hover, #Reinitialise:hover {
+  color: #FF0000;
+}
+
+footer{
+  text-align:center;
+}
+
+#infoArea{
+  font-size:20px;
+  padding-bottom:15px;
+}
+
+canvas, .check, #infoArea {
+  display: block;
+  margin: auto; 
+  text-align: center; 
+}
+
